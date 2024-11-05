@@ -41,12 +41,12 @@ class _UiSettings(BaseSettings):
         env_ignore_empty=True
     )
 
-    title: str = "AcuMax"
+    title: str = "AcuMax Index Assisstant"
     logo: Optional[str] = None
     chat_logo: Optional[str] = None
-    chat_title: str = "Start chatting"
-    chat_description: str = "This chatbot is configured to answer your questions"
-    favicon: str = "/favicon.ico"
+    chat_title: str = "Ask me a question!"
+    chat_description: str = "Welcome to the AcuMax Index Assistant, designed to help maximize AcuMax"
+    favicon: str = "https://app.acumaxindex.com/Images/logo_icon.png"
     show_share_button: bool = True
     show_chat_history_button: bool = True
 
