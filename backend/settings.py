@@ -42,12 +42,12 @@ class _UiSettings(BaseSettings):
     )
 
     title: str = "AcuMax Index Assisstant"
-    logo: Optional[str] = None
-    chat_logo: Optional[str] = None
+    logo: Optional[str] = "https://app.acumaxindex.com/Images/logo_icon.png"
+    chat_logo: Optional[str] = "https://app.acumaxindex.com/Images/logo_icon.png"
     chat_title: str = "Ask me a question!"
     chat_description: str = "Welcome to the AcuMax Index Assistant, designed to help maximize AcuMax"
     favicon: str = "https://app.acumaxindex.com/Images/logo_icon.png"
-    show_share_button: bool = True
+    show_share_button: bool = False
     show_chat_history_button: bool = True
 
 
